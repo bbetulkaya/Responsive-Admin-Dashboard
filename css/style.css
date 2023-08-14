@@ -2,7 +2,10 @@
 
 /*-------------- CSS FILES --------------*/
 @import url(sections/sidebar.css);
+<<<<<<< HEAD
 @import url(sections/main.css);
+=======
+>>>>>>> ffbc6dc6c043f2f2324a989523443c0763ee34d8
 
 /*-------------- ROOT VARIABLES --------------*/
 :root {
@@ -55,12 +58,19 @@ body {
   font-size: 0.8rem;
 
   background: var(--color-background);
+<<<<<<< HEAD
   color: var(--color-dark);
+=======
+>>>>>>> ffbc6dc6c043f2f2324a989523443c0763ee34d8
   user-select: none;
   overflow-x: hidden;
 }
 
+<<<<<<< HEAD
 .container {
+=======
+.container{
+>>>>>>> ffbc6dc6c043f2f2324a989523443c0763ee34d8
   display: grid;
   width: 95%;
   margin: 0 auto;
@@ -133,3 +143,8 @@ b {
 .warning {
   color: var(--color-warning);
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> ffbc6dc6c043f2f2324a989523443c0763ee34d8
