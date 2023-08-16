@@ -2,8 +2,10 @@
 
 /*-------------- CSS FILES --------------*/
 @import url(sections/sidebar.css);
+@import url(sections/topbar.css);
 @import url(sections/card.css);
 @import url(sections/order.css);
+@import url(sections/updateSide.css);
 
 
 /*-------------- ROOT VARIABLES --------------*/
