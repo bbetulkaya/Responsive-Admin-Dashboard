@@ -33,6 +33,15 @@
 
   --box-shadow: 0 2rem 3rem var(--color-light);
 }
+/*-------------- DARK THEME VARIABLES --------------*/
+.dark-theme-variables {
+  --color-background: #181a1e;
+  --color-white: #202528;
+  --color-dark: #edeffd;
+  --color-dark-variant: #a3bdcc;
+  --color-light: rgba(0, 0, 0, 0.4);
+  --box-shadow: 0 2rem 3rem var(--color-light);
+}
 
 * {
   margin: 0;
@@ -196,13 +205,21 @@ b {
     display: none;
 
     position: fixed;
-    left: 0;
+    left: -100%;
     background: var(--color-white);
     width: 18rem;
     z-index: 3;
     box-shadow: 1rem 3rem 4rem var(--color-light);
     height: 100vh;
     padding-right: var(--card-padding);
+
+    animation: showMenu 400ms ease forwards;
+  }
+
+  @keyframes showMenu {
+    to {
+      left: 0;
+    }
   }
 
   aside .logo {
@@ -268,17 +285,17 @@ b {
     box-shadow: 0 1rem 1rem var(--color-light);
   }
 
-  .right .top .theme-toggler{
+  .right .top .theme-toggler {
     width: 4.4rem;
     position: absolute;
     left: 66%;
   }
 
-  .right .profile .info{
+  .right .profile .info {
     display: none;
   }
 
-  .right .top button{
+  .right .top button {
     display: inline-block;
     background: transparent;
     cursor: pointer;
@@ -287,7 +304,7 @@ b {
     left: 1rem;
   }
 
-  .right .top button span{
+  .right .top button span {
     font-size: 2rem;
   }
 }
